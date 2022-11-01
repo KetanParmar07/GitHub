@@ -11,6 +11,7 @@ public class Main {
         double g = 443.8319304831357;
 
         double ans = (a+b)/(c*d)-(e-f)*(g-a)+(a/c);
+        System.out.println((a+b) +" " + (c*d) +" " + (e-f) +" " + (g-a)+" " + (a/c));
         System.out.println("This expression answer= "+ans);
     }
 }
