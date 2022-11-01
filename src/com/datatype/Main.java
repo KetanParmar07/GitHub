@@ -7,7 +7,7 @@ public class Main {
         int c = 'k';
         short d = 25;
         byte e = 32;
-        long f = 588847879433001l;
+        long f = 58884787901l;
         double g = 443.8319304831357;
 
         double ans = (a+b)/(c*d)-(e-f)*(g-a)+(a/c);
