@@ -10,7 +10,9 @@ public class Second {
         int num2 = in.nextInt();
 
         int ans = num1+num2;
+        float avg = (num1+num2)/2;
 
         System.out.println("The sum of two number is= "+ans);
+        System.out.println("The average of two number is= "+avg);
     }
 }
