@@ -12,7 +12,5 @@ public class Main {
 
         double ans = (a+b)/(c*d)-(e-f)*(g-a)+(a/c);
         System.out.println("This expression answer= "+ans);
-
-
     }
 }
