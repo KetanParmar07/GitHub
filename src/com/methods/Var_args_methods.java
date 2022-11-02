@@ -1,7 +1,6 @@
 package com.methods;
 
 import java.util.Arrays;
-import java.util.Stack;
 
 public class Var_args_methods {
     public static void main(String[] args) {
