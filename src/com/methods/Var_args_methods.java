@@ -17,6 +17,7 @@ public class Var_args_methods {
     }
 
     static void fun(int ...arr){
+
         System.out.println(Arrays.toString(arr));
     }
 }
