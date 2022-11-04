@@ -44,6 +44,21 @@ public class Searching {
         return -1;
     }
 
+    // search any element in the range in array
+    static int Linear_Search(int[] arr, int target, int start, int end){
+
+        if (arr.length == 0){
+            return -1;
+        }
+        // here traverse the whole array and compare the all array value with target.
+        for (int index = start; index <= end; index++) {
+            if (target == arr[index]){
+                return index;
+            }
+        }
+        return -1;
+    }
+
     // search the target and return the element
     static int Linear_Search2(int[] arr, int target){
 
