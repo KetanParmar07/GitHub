@@ -22,17 +22,55 @@ public class Searching {
         int ans = Linear_Search(arr, target);
         System.out.println("The given element index= "+ans);
 
+        int ans1 = Linear_Search2(arr,target);
+        System.out.println("The target element is= "+ans1);
+
+        boolean ans2 = Linear_Search3(arr,target);
+        System.out.println("The target element in the array is= "+ans2);
     }
 
     // search any element position in array
     static int Linear_Search(int[] arr, int target){
 
+        if (arr.length == 0){
+            return -1;
+        }
         // here traverse the whole array and compare the all array value with target.
-        for (int i = 0; i < arr.length; i++) {
-            if (target == arr[i]){
-                return i;
+        for (int index = 0; index < arr.length; index++) {
+            if (target == arr[index]){
+                return index;
             }
         }
         return -1;
+    }
+
+    // search the target and return the element
+    static int Linear_Search2(int[] arr, int target){
+
+        if (arr.length == 0){
+            return -1;
+        }
+        // here traverse the whole array and compare the all array value with target.
+        for (int index = 0; index < arr.length; index++) {
+            if (target == arr[index]){
+                return target;
+            }
+        }
+        return -1;
+    }
+
+    // search the target and return the true or false
+    static boolean Linear_Search3(int[] arr, int target){
+
+        if (arr.length == 0){
+            return false;
+        }
+        // here traverse the whole array and compare the all array value with target.
+        for (int index = 0; index < arr.length; index++) {
+            if (target == arr[index]){
+                return true;
+            }
+        }
+        return false;
     }
 }
