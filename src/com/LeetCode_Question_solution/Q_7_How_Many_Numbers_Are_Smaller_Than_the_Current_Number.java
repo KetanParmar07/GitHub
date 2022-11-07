@@ -32,6 +32,8 @@ public class Q_7_How_Many_Numbers_Are_Smaller_Than_the_Current_Number {
         int[] ans = new int[nums.length];
 
         for (int i = 0; i < nums.length; i++) {
+            // // here define the count variable and check how many numbers are greater than the nums[i] and update the count value and this value put in the ans array
+
             int count = 0;
             for (int j = 0; j < nums.length; j++) {
                 if (nums[j] < nums[i]){
