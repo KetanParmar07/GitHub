@@ -1,5 +1,7 @@
 package com.LeetCode_Question_solution;
 
+//https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+
 import java.util.Arrays;
 
 public class Q_7_How_Many_Numbers_Are_Smaller_Than_the_Current_Number {
