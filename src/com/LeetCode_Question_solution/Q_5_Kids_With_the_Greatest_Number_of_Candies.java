@@ -3,7 +3,7 @@ package com.LeetCode_Question_solution;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q_4_Kids_With_the_Greatest_Number_of_Candies {
+public class Q_5_Kids_With_the_Greatest_Number_of_Candies {
     public static void main(String[] args) {
        int[] candies = {2,3,5,1,3};
        // Here candies array index represent the KIDS OF NO.
