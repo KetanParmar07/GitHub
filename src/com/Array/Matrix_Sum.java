@@ -76,6 +76,7 @@ public class Matrix_Sum {
             }
         }else {
             System.out.println("Invalid Matrix...");
+            System.out.println("Matrix Addition is Not Possible...");
         }
 
     }
