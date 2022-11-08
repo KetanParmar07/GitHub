@@ -75,6 +75,7 @@ public class Matrix_Subtraction {
             }
         }else {
             System.out.println("Invalid Matrix...");
+            System.out.println("Matrix Subtraction is Not Possible...");
         }
     }
 }
