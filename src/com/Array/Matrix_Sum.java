@@ -6,6 +6,17 @@ import java.util.Scanner;
 public class Matrix_Sum {
     public static void main(String[] args) {
         // Matrix SUM, SUBTRACTION and MULTIPLICATION
+
+        /*
+
+            matrix 1 = [1 2 3]                matrix 2 = [1 2 3]
+                       [4 5 6]                           [4 5 6]
+                       [7 8 9]                           [7 8 9]
+                         matrix size = 3 x 3                    matrix size = 3 x 3
+                                       R1 X C1                                R2 X C2
+             if both matrix row and column is same then and then matrix addition is performed
+        */
+
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter Matrix Raw value= ");
