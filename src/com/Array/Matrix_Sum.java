@@ -64,15 +64,18 @@ public class Matrix_Sum {
 
         int[][] ans = new int[R1][C2];
 
-        for (int i = 0; i < R1; i++) {
-            for (int j = 0; j < C2; j++) {
-                ans[i][j] = arr1[i][j] + arr2[i][j];
+        if (R1 == R2 && C1 == C2){
+            for (int i = 0; i < R1; i++) {
+                for (int j = 0; j < C2; j++) {
+                    ans[i][j] = arr1[i][j] + arr2[i][j];
+                }
             }
-        }
-
-        System.out.println("The Sum of Two Matrix is = ");
-        for (int row = 0; row < R1; row++) {
-            System.out.println(Arrays.toString(ans[row]));
+            System.out.println("The Sum of Two Matrix is = ");
+            for (int row = 0; row < R1; row++) {
+                System.out.println(Arrays.toString(ans[row]));
+            }
+        }else {
+            System.out.println("Invalid Matrix...");
         }
 
     }
