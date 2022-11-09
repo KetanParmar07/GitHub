@@ -30,7 +30,6 @@ public class Insertion_Sort_Algorithm {
             }
         }
     }
-
     static void swap(int[] arr, int First, int Second) {
         int temp = arr[First];
         arr[First] = arr[Second];
