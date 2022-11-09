@@ -34,6 +34,7 @@ public class Selection_Sort_Algo {
         arr[maxIndex] = arr[lastIndex];
         arr[lastIndex] = temp;
     }
+
     static int getMaxIndex(int[] arr, int start, int end) {
         int max = start;
         for (int i = start; i <= end; i++) {
