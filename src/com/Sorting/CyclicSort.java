@@ -1,16 +1,14 @@
 package com.Sorting;
 
 import java.util.Arrays;
-
 public class CyclicSort {
     public static void main(String[] args) {
-        int[] arr = {8,9,5,4,3,10,11,2,1,6,7};
+        int[] arr = {8,9,5,12,13,4,3,14,16,10,11,2,15,1,6,7};
+
         Cyclic_sort(arr);
 
         System.out.print("Sorted Array is= ");
         System.out.println(Arrays.toString(arr));
-
-
     }
    static void Cyclic_sort(int[] arr){
         int i = 0;
